@@ -21,6 +21,7 @@ import logo from "./logo.svg";
 import { Notifications } from "./components/notifications";
 import { CustomAppLayout } from "./components/common";
 import { TableItem } from "./types/table-item";
+import Xterm from "./components/xterm";
 
 const navItems: SideNavigationProps.Item[] = [
   {
@@ -159,6 +160,7 @@ const Content = () => {
         }
         enableKeyboardNavigation={true}
       />
+      <Xterm />
     </Box>
   );
 };
